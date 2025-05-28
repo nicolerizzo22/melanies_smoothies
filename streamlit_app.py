@@ -25,7 +25,7 @@ ingredients_list = st.multiselect(
     , max_selections=5
 )
 
-pd_df=mydataframe.to_pandas()
+pd_df=my_dataframe.to_pandas()
 #st.dataframe(pd_df)
 #st.stop()
 
