@@ -25,8 +25,8 @@ ingredients_list = st.multiselect(
 )
 
 pd_df=mydataframe.to_pandas()
-at.dataframe(pd_df)
-st.stop()
+#st.dataframe(pd_df)
+#st.stop()
 
 if ingredients_list:
     ingredients_string = ''
